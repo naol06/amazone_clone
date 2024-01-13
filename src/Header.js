@@ -1,10 +1,13 @@
 import React from 'react'
 import "./Header.css"
+import { Link } from 'react-router-dom'
+import { useStateValue } from './StateProvider'
 
 function Header() {
+  const[{basket},dispatch]=useStateValue();
   return (
     <div className='header'>
-<img className='header_logo' src='https://th.bing.com/th/id/R.1a7d775d8d218f2393fd8848a386ef6e?rik=7TbtU1w9lgPMvQ&pid=ImgRaw&r=0' alt='Amazone'/>
+<Link to={'/'}><img className='header_logo' src='https://th.bing.com/th/id/R.1a7d775d8d218f2393fd8848a386ef6e?rik=7TbtU1w9lgPMvQ&pid=ImgRaw&r=0' alt='Amazone'/></Link>
  <div className='header_search'>
     <input type='text' className='header_searchInput'/>
     <i className="bi header_searchIcon bi-search"></i>
@@ -23,7 +26,7 @@ function Header() {
       <span className='header_optionLineTwo'>Prime</span>
     </div>
     <div className='header_optionBasket'>
-    <i className="bi header_basketCount na bi-cart-plus"><span className='jj'>3</span></i>
+   <Link className='text-decoration-none text-white' to={'/checkout'}> <i className="bi header_basketCount na bi-cart-plus"><span className='jj'>{basket.length}</span></i></Link>
     
     </div>
     </div>
