@@ -31,14 +31,14 @@ function Home() {
     </Carousel>
     <div className='home_row'>
       <Product
-      id="123123123"
+      id="1231231231"
       title="You can create a product component in React with the following structure:"
       price={11.96}
       rating={5}
       image="https://m.media-amazon.com/images/I/61H2+izHRgL._AC_SY400_.jpg"
       />
      <Product
-      id="123123123"
+      id="1231231232"
       title="Shop activity trackers and smartwatches"
       price={10.96}
       rating={4}
@@ -47,21 +47,21 @@ function Home() {
     </div>
      <div className='home_row'>
      <Product
-      id="123123123"
+      id="1231231233"
       title="Shop activity trackers "
       price={315.99}
       rating={4}
       image="https://m.media-amazon.com/images/I/718zEa-9sWL._AC_UY327_FMwebp_QL65_.jpg"
       />
    <Product
-      id="123123123"
+      id="1231231234"
       title="Shop activity trackers "
       price={529.91}
       rating={6}
       image="https://m.media-amazon.com/images/I/715ZpW-OIXL._AC_UY327_FMwebp_QL65_.jpg"
       />
      <Product
-      id="123123123"
+      id="1231231235"
       title=" Low Heel Chelsea Fashion "
       price={529.91}
       rating={6}
@@ -70,7 +70,7 @@ function Home() {
     </div>
      <div className='home_row'>
      <Product
-      id="123123123"
+      id="1231231236"
       title=" VejiA Ergonomic Gaming Chair with Footrest, Comfortable "
       price={529.91}
       rating={6}
