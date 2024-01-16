@@ -1,5 +1,5 @@
 if you want to view deplyed page 
-https://e-clone-d6057.web.app/checkout
+https://e-clone-d6057.web.app/
 ![Screenshot 2024-01-16 at 23-47-46 React App](https://github.com/naol06/amazone_clone/assets/118481867/bccddf3c-fa75-4288-8f60-c8e00090c4c7)
 ![Screenshot 2024-01-16 at 23-48-23 React App](https://github.com/naol06/amazone_clone/assets/118481867/e882dad5-27ef-41ca-8703-79b0e17e9966)
 
