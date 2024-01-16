@@ -1,3 +1,8 @@
+![Screenshot 2024-01-16 at 23-47-46 React App](https://github.com/naol06/amazone_clone/assets/118481867/bccddf3c-fa75-4288-8f60-c8e00090c4c7)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
