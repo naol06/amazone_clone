@@ -78,7 +78,29 @@ function Home() {
       />
      
     </div>
-  
+    <div className='home_row'>
+    <Product
+     id="123123123388"
+     title="Flying Car Transport Simulator "
+     price={410.99}
+     rating={5}
+     image="https://m.media-amazon.com/images/I/91MvCXSipSL._AC_UL480_FMwebp_QL65_.png"
+     />
+  <Product
+     id="123123123499"
+     title="95% Apple iPhone 12 13 Pro Max 128GB 256GB 512GB ROM 6.7 "
+     price={528.91}
+     rating={2}
+     image="https://m.media-amazon.com/images/I/31wU6IjgNnL._AC_UY327_FMwebp_QL65_.jpg"
+     />
+    <Product
+     id="123123123500"
+     title=" Apple iPad Pro (10.5-inch, Wi-Fi + Cellular, 512GB) - Gold (Previous Model) "
+     price={220.91}
+     rating={4}
+     image="https://m.media-amazon.com/images/I/71Q7eTSOyRL._AC_UY327_FMwebp_QL65_.jpg"
+     />
+   </div>
       </div>
     </div>
   )
